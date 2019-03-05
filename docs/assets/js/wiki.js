@@ -1,1 +1,1 @@
-!function(o){"use strict";var s=function(){o("nav").offset().top>100?o("body").addClass("scrolled"):o("body").removeClass("scrolled")};s(),o(window).scroll(s)}(jQuery);
+!function(o){"use strict";var s=function(){o("nav").offset().top>100?o("body").addClass("scrolled"):o("body").removeClass("scrolled"),console.log(o(".toc").offset().top),o(".toc").offset().top>300?o(".toc").addClass("fixed"):o(".toc").removeClass("fixed")};s(),o(window).scroll(s)}(jQuery);

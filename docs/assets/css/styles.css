@@ -23,6 +23,19 @@
   -ms-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0; }
 
+.card .card-img-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+.card .card-body .card-title {
+  font-family: "Zilla Slab", serif;
+  margin-bottom: 5px; }
+.card .card-body .card-text {
+  font-size: 0.9rem; }
+
+.fixed.toc {
+  /*position: fixed;
+  max-width: 255px;
+  */ }
+
 body {
   padding-top: 82px; }
 

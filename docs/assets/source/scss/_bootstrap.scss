@@ -14,3 +14,28 @@
 .card-img-top{
     @include border_radius($border-radius $border-radius 0 0);
 }
+
+.card{
+    .card-img-top{
+        border-bottom:1px solid rgba(0,0,0,.125);
+    }    
+    .card-body{
+        .card-title{
+            font-family: $font-header;
+            margin-bottom: 5px;
+        }    
+        .card-text{
+            font-size:0.9rem;
+        }
+        .btn{
+
+        }
+    }
+
+}
+
+.fixed.toc{
+    /*position: fixed;
+    max-width: 255px;
+    */
+}

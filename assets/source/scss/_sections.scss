@@ -1,0 +1,13 @@
+header.masthead {
+    padding: 3rem 0 0 ;
+    position: relative;
+    background-color: #007bff;
+    background-image: url('../img/default-masthead.jpg'),linear-gradient(45deg,#007bff 0%,#006fe6 100%);
+    background-size: cover;
+    z-index: 0;
+}
+
+.latest-articles{
+    padding:20px 0;
+    min-height: 200px;
+}

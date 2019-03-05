@@ -1,0 +1,23 @@
+{
+	"mappings": [
+		{	
+			"src": "scss",
+		 	"dest": "../css"
+		},
+		{	
+			"src": "js",
+		 	"dest": "../js"
+		}
+	],
+	"ignores": ["*.json", "*.txt"],
+	"options": [
+		{
+			"lineComments": true,
+			"debugInfo": false,
+			"strictMath": false,
+			"strictUnits": false,
+			"sourceMap": true
+		}
+	],
+	"includePaths": ["css","js"]
+}

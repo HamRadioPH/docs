@@ -32,12 +32,10 @@
 }
 
 .alert{
+    font-size: 0.95rem;
     .alert-heading{
         font-family: $font-primary !important;
         font-weight: 300 !important;
-    }
-    p{
-        font-size: 0.95rem;
     }
     p:last-child{
         margin-bottom: 0;

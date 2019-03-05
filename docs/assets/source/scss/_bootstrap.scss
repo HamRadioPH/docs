@@ -8,7 +8,7 @@
     }
 }
 
-.btn,.img-thumbnail,.card{
+.btn,.img-thumbnail,.card,.alert,.breadcrumb{
     @include border_radius($border-radius);
 }
 .card-img-top{
@@ -29,4 +29,10 @@
         }
     }
 
+}
+
+.alert{
+    p{
+        font-size: 0.95rem;
+    }
 }

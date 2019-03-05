@@ -31,11 +31,6 @@
 .card .card-body .card-text {
   font-size: 0.9rem; }
 
-.fixed.toc {
-  /*position: fixed;
-  max-width: 255px;
-  */ }
-
 body {
   padding-top: 82px; }
 
@@ -112,7 +107,7 @@ h1, h2, h3, h4 {
   .navbar-brand img {
     width: 100%; }
 
-body.scrolled nav {
+body.scrolled nav.navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 body.scrolled nav.bg-white {
   background-color: rgba(255, 255, 255, 0.92) !important; }

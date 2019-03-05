@@ -7,6 +7,12 @@
         width: 100%;
     }
 }
+.navbar-nav > li > a {
+    font-family: $font-primary;       
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
 body.scrolled {
     nav.navbar{
         border-bottom:1px solid rgba(0,0,0,.1)
@@ -17,7 +23,6 @@ body.scrolled {
     .navbar-nav > li > a {
         padding-top: 0;
         padding-bottom: 0;
-        font-family: $font-primary;       
     }
     .navbar-brand{
         width:125px;
@@ -25,9 +30,8 @@ body.scrolled {
 }
 @media (min-width: 768px) {
     .navbar-nav > li > a {
-        padding: 1rem 1.5rem;
-        line-height: 27px;
-        
+        padding: 1.5rem;
+        line-height: 27px;        
         @include transition(.5s, ease);
     }
 }

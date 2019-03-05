@@ -32,7 +32,17 @@
 }
 
 .alert{
+    .alert-heading{
+        font-family: $font-primary;
+        font-weight: normal;
+    }
     p{
         font-size: 0.95rem;
     }
+
+}
+
+.breadcrumb{
+    padding: .5rem 1rem;
+    font-size:0.9rem;
 }
